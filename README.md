@@ -196,11 +196,13 @@ public static void main(String[] args) {
 * 内联
   #### 语法：
   > \!\[Alt text\]\(\/path\/to\/img.jpg\)   
-  > \!\[阅读\]\(https://github.com/szhxiao/markdown-guide/blob/main/resources/beverage-book.jpg\)
+  > \!\[相对路径\]\(\/resources/beverage-book.jpg\)   
+  > \!\[绝对路径\]\(https://github.com/szhxiao/markdown-guide/blob/main/resources/beverage-book.jpg\)
 
   #### 效果：
   > ![Alt text](/path/to/img.jpg)   
-  > ![阅读]\(https://github.com/szhxiao/markdown-guide/blob/main/resources/beverage-book.jpg)
+  > ![相对路径](/resources/beverage-book.jpg)   
+  > ![绝对路径](https://github.com/szhxiao/markdown-guide/blob/main/resources/beverage-book.jpg)
 
 * 引用
   #### 语法：
@@ -210,7 +212,8 @@ public static void main(String[] args) {
   #### 效果：
   > [阅读][beverage-book]
 
-  >[beverage-book]: https://github.com/szhxiao/markdown-guide/blob/main/resources/beverage-book.jpg
+  >[beverage-book]: https://github.com/szhxiao/markdown-guide/raw/main/resources/beverage-book.jpg
+  
 
 
 
